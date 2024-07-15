@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_pp.css"></link>
+    <title>TV Mojana</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+              <img class="logo" width="60" height="60"src="imagenes/logo.png">
+              <h1 class="nombre">JD TV</h1>
+            </div>
+            <div>
+                <ul class="opciones"><a href="#" class="inicios" id="abrir">Iniciar sesion</a>
+                </ul>
+                <dialog id="modal">
+                    <p class="in">Iniciar Sesion</p>
+                    <form class="sucursal" action="#">
+                        <label for="suc">Sucursal</label>
+                        <select name="sucursal" id="suc" required>
+                            <option value="javascript">Guaranda</option>
+                            <option value="javascript">Majagual</option>
+                        </select>  
+                    </form>
+                    <p class="us">Usuario</p>
+                       <input type="email" class="caja1"  placeholder="Ingrese su usuario" required>
+                    <p class="cl">Clave</p>
+                       <input type="password" class="caja2" placeholder="Ingrese su clave" required>
+                       <div class="botones">
+                    <button class="acep" id="ac"><a href="#">Aceptar</a></button>
+                    <button class="ca" id="btnca">Cancelar</button>
+                       </div>
+                       <div class="olv">
+                           <a href="#" id="olc">Olvide la clave</a>
+                       </div>
+                </dialog>
+            </div>
+        </nav>
+    </header>
+        <main>
+        <div>
+            <h1 Class="titulo2">TV MOJANA S.A.S</h1>
+            <img class="imgtv" width="200" height="150" src="imagenes/TV Mojana sin fondo.png">
+            <h2 class="lema">Comprometidos con el desarrollo de la region</h2>
+
+
+
+            <datetime class="fecha">Domingo - 09/06/2024 - 09:00:00 am</datetime>
+           
+        </div>
+        </main>
+
+        <footer>
+            <p>Derechos reservados &copy; 2024 JD TV</p>
+        </footer>
+        <script src="index.js"></script>
+</body>
+</html>

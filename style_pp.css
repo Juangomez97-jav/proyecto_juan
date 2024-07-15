@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --background-color: #fc0909ef;
+  --main-color:#e0ddff; 
+  --texto-color:#ffffff; 
+
+}
+.logo{
+    float:left;
+}
+.nombre{
+
+    float: left;
+    font-size: 30px;
+    margin-top: 10px;
+}
+nav{
+        background-color:var(--background-color);
+        display: flex;
+        padding: 5px;
+        justify-content: space-between;
+        align-items: center;
+
+}
+footer{
+  background-color: #000;
+  color:#ffffff;
+  padding: 10px;
+  text-align: center;
+}
+.opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+}
+main{
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 115px;
+}
+.imgtv{
+    margin-top: 50px;
+}
+.lema{
+    margin-top: 30px;
+}
+.fecha{
+    margin-top: 40px;
+}
+
+dialog{
+    background-color: bisque;
+    padding: 50px;
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: 120px;
+}
+.sucursal{
+    margin-top: 20px;
+}
+.botones{
+    text-align: center;
+    margin-top: -15%;
+}
+.olv{
+    text-align:center ;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.us{
+    margin-top: 15px;
+}
+.acep{
+    justify-content: flex-end;
+    background-color: #19f609;
+    border-radius: 5px;
+}
+.caja2{
+    right: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+.caja1{
+    right: 100px;
+    border-radius: 10px;
+    right: 5%;
+}
+.in{
+    font-size: 30px;
+    text-align: center;
+}
+.ca{
+    margin-top: 20%;
+    background-color: #f90707;
+    border-radius: 5px;
+}
+.fecha{
+    margin-top: 100%;
+    font-size: 23px;
+}
+.cl{
+    margin-top: 3px;
+}
